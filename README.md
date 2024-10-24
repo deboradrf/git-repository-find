@@ -15,4 +15,4 @@ Projeto desenvolvido como desafio do Bootcamp DIO que permite buscar repositóri
 - React
 
 ### 📁 Acesso ao projeto
-Hospedado no Netlify `https://deboradrf-wikigit.netlify.app`
+Hospedado no Netlify ``
