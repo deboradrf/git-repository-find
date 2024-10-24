@@ -16,7 +16,7 @@ function ItemRepo({repo, handleRemoveRepo}) {
         </div>
         <div className='repo-btn'>
           <a href={repo.html_url} rel="noreferrer" target="_blank">Ver repositório</a><br />
-          <a href="#" rel="noreferrer" className="remover">Remover</a>
+          <button className="remover" onClick={handleRemove}>Remover</button>
         </div>
       </div>
       <hr />
