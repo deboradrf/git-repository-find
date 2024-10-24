@@ -15,9 +15,17 @@ export const ItemContainer = styled.div`
 
   .repo-btn {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+  }
+
+  .remover {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    padding: 3px;
   }
 
   h3 {
@@ -33,13 +41,6 @@ export const ItemContainer = styled.div`
   a {
     text-decoration: none;
     color: #00f;
-    margin-bottom: 10px;
-  }
-
-  a.remover {
-    color: #FF0000;
-    margin-top: 10px;
-    margin-left: 30px;
   }
 
   hr {
