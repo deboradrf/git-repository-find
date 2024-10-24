@@ -17,6 +17,7 @@ export const ItemContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    cursor: pointer;
   }
 
   h3 {
